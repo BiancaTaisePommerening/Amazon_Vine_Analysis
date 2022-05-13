@@ -1,3 +1,5 @@
+-------------------       CREATING TABLE           ---------------------
+
 CREATE TABLE review_id_table (
   review_id TEXT PRIMARY KEY NOT NULL,
   customer_id INTEGER,
@@ -27,3 +29,28 @@ CREATE TABLE vine_table (
   vine TEXT,
   verified_purchase TEXT
 );
+
+
+-------------  DISPLAY review_id_table.   ----------------
+
+SELECT * FROM review_id_table;
+
+SELECT count(*) FROM review_id_table;
+-------------       DISPLAY customers_table    --------------------
+
+SELECT * FROM customers_table;
+
+SELECT count(*) FROM customers_table;
+
+-------------   DISPLAY  vine_table       --------------------
+
+SELECT * FROM vine_table;
+
+SELECT count(*) FROM vine_table;
+
+------------- DISPLAY products_table      --------------------
+
+SELECT * FROM products_table;
+
+SELECT count(*) FROM products_table;
+
