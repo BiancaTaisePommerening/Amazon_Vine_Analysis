@@ -99,11 +99,11 @@ Out of a list of 50 different datasets, the Outdoor Reviews was the one chosen f
 
 ### **DataFrame Displaying the Results**
 
-The following Dataframe displays:
-    - Total Number of Reviews
-    - Total Number of 5-star reviews
-    - % of 5-star Unpaid Reviews (calculated by dividing the total number of unpaid 5-star reviews by the total number of 5-star reviews)
-    - % of 5-star Paid Reviews (calculated by dividing the total number of paid 5-star reviews by the total number of 5-star reviews)
+- The following Dataframe displays:
+    - Total Number of Reviews;
+    - Total Number of 5-star reviews;
+    - % of 5-star Unpaid Reviews (calculated by dividing the total number of unpaid 5-star reviews by the total number of 5-star reviews);
+    - % of 5-star Paid Reviews (calculated by dividing the total number of paid 5-star reviews by the total number of 5-star reviews).
 
 
 ![results_df](./resources/results_df.png)
