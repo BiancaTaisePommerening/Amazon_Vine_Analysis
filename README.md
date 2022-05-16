@@ -11,7 +11,7 @@ Out of a list of 50 different datasets, the Outdoor Reviews was the one chosen f
 
 
 
-## **Soulution Design**
+## **Solution Design**
 
 ### **Deliverable 1**
 
