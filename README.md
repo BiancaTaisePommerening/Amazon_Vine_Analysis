@@ -42,8 +42,9 @@ Out of a list of 50 different datasets, the Outdoor Reviews was the one chosen f
         - Determine the total number of reviews, the number of 5-star reviews, and the percentage of 5-star reviews for the two types of review (paid vs unpaid).
         - Export the ipynb file, and save it to the GitHub repository.
 
-### ** Deliverable 3**
-    - Write a Report on the Analysis (README.md)
+### **Deliverable 3**
+
+- Write a Report on the Analysis (README.md)
 
 
 ## **Results**
@@ -83,13 +84,13 @@ Out of a list of 50 different datasets, the Outdoor Reviews was the one chosen f
 
 ### **6. Percentage of 5-Star Paid Reviews**
 
-
+- 0.28%
 
 ![percentage_five_stars_paid](./resources/percentage_five_stars_paid.png)
 
 ### **7. Percentage of 5-Star Unpaid Reviews**
 
-What percentage of non-Vine reviews were 5 stars?
+- 99.72%
 
 ![percentage_five_stars_unpaid](./resources/percentage_five_stars_unpaid.png)
 
