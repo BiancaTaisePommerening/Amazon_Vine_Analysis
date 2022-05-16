@@ -83,13 +83,13 @@ Out of a list of 50 different datasets, the Outdoor Reviews was the one chosen f
 
 ### **6. Percentage of 5-Star Paid Reviews**
 
-- 0.28%
+- 53.4%
 
 ![percentage_five_stars_paid](./resources/percentage_five_stars_paid.png)
 
 ### **7. Percentage of 5-Star Unpaid Reviews**
 
-- 99.72%
+- 52.71%
 
 ![percentage_five_stars_unpaid](./resources/percentage_five_stars_unpaid.png)
 
@@ -105,15 +105,13 @@ Out of a list of 50 different datasets, the Outdoor Reviews was the one chosen f
     - % of 5-star Paid Reviews (calculated by dividing the total number of paid 5-star reviews by the total number of 5-star reviews).
 
 
+
 ![results_df](./resources/results_df.png)
 
-These results show that only 0.28% of the 5-star reviews came from paid ones, while 99.7% of them came from customers that do not participate on the Amazon Vine program, which says that the overall review score have little influence coming from paid 5-star reviews, but it does not tell if people that pay for the program give 5-star reviews or not.
+
+When looking at the results individually, 53.4% seems to be very high for only 5-star reviews which could lean into a bias conclusion. On the other hand this result is very similar to the 52.71% of 5-star reviews given by non-vine customers, which suggests that Vine members might be actually given honest results.
 
 
 ### **Additional Analysis**
 
-In order to further check for any bias towards 5-star paid reviews another calculation was performed, where it shows the ratio between the 5-star paid reviews and all the other paid reviews (1-star to 4-star).
-
-![additional_analysis](./resources/additional_analysis.png)
-
-The calculation resulted in 53.4% of the paid reviews are 5-star, while 46.6% of the paid reviews are among the 1-star to 4-star ones, meaning that there may be some bias on the reason why they are giving 5-star reviews since more than half of those are all 5-star.
+Looking at the total amount of reviews 37544 and the amount of paid reviews 103, it indicates that the proportion of reviews is unbalanced, suggesting that a sampling analysis should be done and/or collecting more paid reviews to further analyze the matter.
