@@ -13,38 +13,37 @@ Out of a list of 50 different datasets, the Outdoor Reviews was the one chosen f
 
 ## **Solution Design**
 
-### **Deliverable 1**
+### **Perform ETL on Amazon Product Reviews**
 
-- Perform ETL on Amazon Product Reviews;
-    - Pick a dataset from the Amazon Review datasets;
-    - Create a new Google Colab Notebook;
-    - Using PySpark:
-        - Read in a CSV file;
-        - Extract the dataset into a DataFrame;
-        - Use its methods and functions to perform ETL;
-        - Transform the DataFrame into four separate DataFrames that match the table schema in pgAdmin;
-    - Create an AWS RDS database;
-    - Upload the transformed data into the appropriate pgAdmin tables; 
-    - Run queries using PostgreSQL in pgAdmin to confirm that the data has been uploaded.
+- Pick a dataset from the Amazon Review datasets;
+- Create a new Google Colab Notebook;
+- Using PySpark:
+    - Read in a CSV file;
+    - Extract the dataset into a DataFrame;
+    - Use its methods and functions to perform ETL;
+    - Transform the DataFrame into four separate DataFrames that match the table schema in pgAdmin;
+- Create an AWS RDS database;
+- Upload the transformed data into the appropriate pgAdmin tables; 
+- Run queries using PostgreSQL in pgAdmin to confirm that the data has been uploaded.
 
-### **Deliverable 2**
-- Determine Bias of Vine Reviews;
-    - Create a new Google Colab Notebook as a Jupyter Notebook file;
+### **Determine Bias of Vine Reviews**
+
+- Create a new Google Colab Notebook as a Jupyter Notebook file;
+- Read in a CSV file into a Jupyter Notebook through Googgle Colaboratory;
+- Use the same dataset used for deliverable 1.
+- Using PySpark:
     - Read in a CSV file into a Jupyter Notebook through Googgle Colaboratory;
-    - Use the same dataset used for deliverable 1.
-    - Using PySpark:
-        - Read in a CSV file into a Jupyter Notebook through Googgle Colaboratory;
-        - Extract the dataset into a DataFrame;
-        - Retrieve all the rows on the DataFrame where the total_votes count is equal to or greater than 20, which are the ones more likely to be helpful;
-        - Create a new DataFrame out of the previous one to retrieve all the rows where the number of helpful_votes divided by total_votes is equal to or greater than 50%.
-        - Create a new DataFrame out of the previous one that retrieves all the rows where a review was written as part of the Vine program (paid), vine == 'Y'.
-        - Create a new DataFrame to retrieve all the rows where the review was not part of the Vine program (unpaid), vine == 'N'.
-        - Determine the total number of reviews, the number of 5-star reviews, and the percentage of 5-star reviews for the two types of review (paid vs unpaid).
-        - Export the ipynb file, and save it to the GitHub repository.
+    - Extract the dataset into a DataFrame;
+    - Retrieve all the rows on the DataFrame where the total_votes count is equal to or greater than 20, which are the ones more likely to be helpful;
+    - Create a new DataFrame out of the previous one to retrieve all the rows where the number of helpful_votes divided by total_votes is equal to or greater than 50%.
+    - Create a new DataFrame out of the previous one that retrieves all the rows where a review was written as part of the Vine program (paid), vine == 'Y'.
+    - Create a new DataFrame to retrieve all the rows where the review was not part of the Vine program (unpaid), vine == 'N'.
+    - Determine the total number of reviews, the number of 5-star reviews, and the percentage of 5-star reviews for the two types of review (paid vs unpaid).
+    - Export the ipynb file, and save it to the GitHub repository.
 
-### **Deliverable 3**
+### **Written Analysis**
 
-- Write a Report on the Analysis (README.md)
+- Write a Report on the Analysis (README.md).
 
 
 ## **Results**
